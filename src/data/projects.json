@@ -1,0 +1,23 @@
+[
+    {
+        "title": "First Project",
+        "description": "This was my first project",
+        "githubLink": "https://github.com/NatJune",
+        "deployedLink": "https://supercoolsite.com",
+        "image": "images/project-one.png"
+    },
+    {
+        "title": "Second Project",
+        "description": "This was my Second project",
+        "githubLink": "https://github.com/NatJune",
+        "deployedLink": "https://supercoolsite.com",
+        "image": "images/project-two.png"
+    },
+    {
+        "title": "Third Project",
+        "description": "This was my Third project",
+        "githubLink": "https://github.com/NatJune",
+        "deployedLink": "https://supercoolsite.com",
+        "image": "images/project-three.png"
+    }
+]

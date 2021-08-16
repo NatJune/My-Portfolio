@@ -2,16 +2,11 @@ import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
 
-
-
-const IndexPage = () => {
-  return (
+const About = (props) => (
     <Layout>
-      <Head page="Home" />
-      <h1>Index Page</h1>
+        <Head page="About" />
+        <h1>About</h1>
     </Layout>
-  )
-}
+)
 
-
-export default IndexPage
+export default About

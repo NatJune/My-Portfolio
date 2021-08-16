@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "my-portfolio",
+    title: "NatalieM",
+    author: "Natalie McCook",
+    description: "A personal Website for Natalie McCook"
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-sitemap",
     {
@@ -21,5 +24,13 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "blog",
+        path: "./src/posts"
+      }
+    }, 
+    "gatsby-transformer-remark" 
   ],
 };
