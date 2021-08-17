@@ -27,6 +27,9 @@ const Header = (props) => (
                 <li>
                     <Link to="/contact">Contact Me</Link>
                 </li>
+                <li>
+                    <Link to="/tutorials">Tutorials</Link>
+                </li>
             </ul>
         </nav>
     </StyledHeader>

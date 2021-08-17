@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
@@ -9,6 +11,13 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: "process.env.SPACE_ID",
+        accessToken: "password",
+      }
+    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
