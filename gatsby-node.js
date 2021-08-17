@@ -50,7 +50,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
         })
     })
 
-    contentfulSlugs.data.allcontentfulTutorial.edges.forEach(({ node }) => {
+    contentfulSlugs.data.allContentfulTutorial.edges.forEach(({ node }) => {
         createPage({
             path: `/tutorials/${node.slug}`,
             component: `${__dirname}/src/templates/tutorial-post.js`,
