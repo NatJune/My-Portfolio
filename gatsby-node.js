@@ -30,7 +30,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
 
     const contentfulSlugs = await graphql(`
         query {
-            allcontentfulTutorial {
+            allContentfulTutorial {
                 edges {
                     node {
                         slug

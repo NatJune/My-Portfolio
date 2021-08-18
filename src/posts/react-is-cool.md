@@ -1,5 +1,5 @@
 ---
-title: "React is Cool"
+title: "First Blog"
 date: "2021-08-15"
 ---
-React is so hot right now!
+Coming Soon!

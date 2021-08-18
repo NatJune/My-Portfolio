@@ -1,8 +1,8 @@
 ---
-title: "Gatsby Is Awesome"
+title: "Second Blog"
 date: "2021-08-15"
 ---
-Hey everyone! I just learned about Gatsby and I can't wait to tell you all about it.
+Hey Coming Soon Everyone! I just learned about Gatsby and I can't wait to tell you all about it.
 
 Here are all the things I learned
 
